@@ -31,7 +31,7 @@ class Clock {
         var secNow = this.now.second();
         this.setDegree(second, this.getDegrees(secNow, 60));
     }
-    setTime () {
+    setTime() {
         this.setHour();
         this.setMinute();
         this.setSecond();
