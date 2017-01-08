@@ -6,7 +6,7 @@ var moment = require('moment');
 
 class Clock {
     constructor() {
-        this.now = moment();
+        this.setTime = this.setTime.bind(this);
     }
 
     getDegrees(value, format) {
@@ -32,6 +32,7 @@ class Clock {
         this.setDegree(second, this.getDegrees(secNow, 60));
     }
     setTime() {
+        this.now = moment();
         this.setHour();
         this.setMinute();
         this.setSecond();
