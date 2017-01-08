@@ -1,0 +1,44 @@
+body {
+    background: #090909;
+}
+
+.clock {
+    background: #ccc;
+    margin: 50px auto;
+
+    border-radius: 1rem;
+    vertical-align: middle;
+    position: relative;
+}
+
+.clock__face {
+    background: #696969;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: auto auto;
+    vertical-align: middle;
+    position: relative;
+}
+
+.clock__hand {
+    border-top: 10px solid #000;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
+    height: 10px;
+    transform-origin: 0 0; 
+}
+
+.clock__hour-hand {
+    width: 200px;
+}
+
+.clock__minute-hand {
+    width: 150px;
+}
+
+.clock__second-hand {
+    width: 100px;
+}
