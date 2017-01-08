@@ -22,7 +22,7 @@ body {
 }
 
 .clock__hand {
-    border-top: 10px solid #000;
+    
     position: absolute;
     top: 200px;
     left: 200px;
@@ -32,13 +32,16 @@ body {
 }
 
 .clock__hour-hand {
-    width: 200px;
+    width: 150px;
+    border-top: 10px solid #000;
 }
 
 .clock__minute-hand {
-    width: 150px;
+    width: 180px;
+    border-top: 8px solid #000;
 }
 
 .clock__second-hand {
-    width: 100px;
+    width: 200px;
+    border-top: 5px solid #000;
 }
